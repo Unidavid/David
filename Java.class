@@ -1,0 +1,31 @@
+public class Persona{
+  private int ID;
+  private String nombre;
+  
+  public Persona(int ID, String nombre){
+     this.ID = ID;
+     this.nombre = nombre;
+  }
+
+  public void setID(int ID){
+    this.ID = ID;
+  }
+  
+  public int getID(){
+     return ID;
+  }
+  
+  public void setNombre(String nombre){
+    this.nombre = nombre;
+  }
+ 
+  public String getNombre(String nombre){
+    return nombre;
+  }
+ 
+  @Override
+  public String toString{
+     return '{' + "nombre " + nombre + " ,ID " + ID + '}';
+  }
+
+}
